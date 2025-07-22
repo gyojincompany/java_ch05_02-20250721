@@ -5,9 +5,9 @@ public class ArrayTest02 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int[] numArr1= {100, 200, 300, 400, 500};
+		int[] numArr1= {100, 200, 300};
 		
-		for(int i=0;i<=4;i++) { // 배열 numArr1의 모든 원소 출력하기
+		for(int i=0;i<numArr1.length;i++) { // 배열 numArr1의 모든 원소 출력하기
 			System.out.println(numArr1[i]);
 		}
 		
